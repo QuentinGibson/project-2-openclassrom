@@ -1,0 +1,9 @@
+.accommodations .header {
+    /* TODO: Add font style here */
+}
+
+.accommodations .accommodation-card {
+  background: white;
+  border-radius: 17px;
+  box-shadow: 10px 10px 2px 1px var(--card-box-shadow-color); /* offset-x | offset-y | blur-radius | spread-radius | color */
+}
