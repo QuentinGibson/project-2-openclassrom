@@ -6,22 +6,27 @@
 }
 
 .logo {
-    width: 90px;
     max-width: 100%;
+    padding-left: 50px;
 }
 
 .list-container {
     display:  flex;
     flex-direction: row;
+    list-style: none;
+    padding: 0;
 }
 .list-container .list-item {
     color: var(--menu-grey);
     width: 50%;
     padding: 15px 0;
-    border-bottom: 1px var(--menu-grey) solid;
+    border-bottom: 2px var(--menu-grey) solid;
+    display: flex;
+    justify-content: center;
 }
 
-.list-container .list-container .active {
+
+.list-container .active {
     color: var(--primary);
-    border-bottom: 1px var(--primary) solid;
+    border-bottom: 2px var(--primary) solid;
 }

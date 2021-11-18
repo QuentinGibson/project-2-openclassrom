@@ -1,3 +1,10 @@
+@import "variables.css";
+@import "header.css";
+@import url(./cta.css);
+/* @import url(./mostpopular.css); */
+/* @import url(./accommodations.css); */
+/* @import url(./activities.css); */
+
 html {
     box-sizing: border-box;
 }
@@ -5,9 +12,3 @@ html {
     box-sizing: inherit;
     font-family: 'Raleway', sans-serif;
 }
-@import url(./variables.css);
-@import url(./header.css);
-@import url(./cta.css);
-@import url(./mostpopular.css);
-@import url(./accommodations.css);
-@import url(./activities.css);
