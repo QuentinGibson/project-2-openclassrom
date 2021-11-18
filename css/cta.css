@@ -1,0 +1,42 @@
+.cta .content-header {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.cta .contennt-sub {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cta .searchbar-container {
+  border: 1px var(--search-grey-border) solid;
+  border-radius: 15px;
+  position: relative;
+}
+
+.cta .location-icon {
+  display: absolute;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 15px 0 0 15px;
+}
+.grey-icon-background {
+  background-color: var(--icon-grey-background);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searbar-input-container {
+  padding: 15px 16px;
+}
+
+.searbar-input-container .searchbar-input {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cta .search-icon-container {
+  display: absolute;
+}
