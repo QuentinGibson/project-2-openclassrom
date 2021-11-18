@@ -1,0 +1,26 @@
+.activities .header {
+    /* TODO: Add font style here */
+    font-weight: bold;
+}
+
+.activities .activity-card {
+  position: relative;
+
+}
+
+.activities .activity-image-container {
+  position: absolute;
+  top: 0;
+  height: 50px;
+}
+
+.activities .activity-image-container .activity-image {
+  width: 100%;
+  height: auto;
+  border-radius: 17px 17px 0 0;
+}
+
+.activities .activity-image-container .activity-title {
+    /* TODO: Add font style here */
+    padding: 10px;
+}
