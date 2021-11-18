@@ -1,12 +1,14 @@
 .cta .content-header {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 30px;
+
+  width: 300px;
 }
 
 .cta .contennt-sub {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .cta .searchbar-container {
@@ -16,7 +18,8 @@
 }
 
 .cta .location-icon {
-  display: absolute;
+  position: relative;
+  display: inline-flex;
   left: 0;
   height: 50px;
   width: 50px;
@@ -29,6 +32,11 @@
   align-items: center;
 }
 
+.searchbar-content-container {
+  position: relative;
+  display: inline-flex;
+}
+
 .searbar-input-container {
   padding: 15px 16px;
 }
@@ -39,11 +47,12 @@
 }
 
 .cta .search-icon-container {
-  display: absolute;
+  position: relative;
+  display: inline-flex;
 }
 
-.cta .primary-background {
-  color: var(--primary);
+.search-icon-container .primary-background {
+  background-color: var(--primary);
 }
 
 .fa-search {
