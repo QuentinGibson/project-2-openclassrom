@@ -12,3 +12,7 @@ html {
     box-sizing: inherit;
     font-family: 'Raleway', sans-serif;
 }
+
+main {
+    margin-left: 20px;
+}
