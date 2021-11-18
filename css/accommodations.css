@@ -6,4 +6,38 @@
   background: white;
   border-radius: 17px;
   box-shadow: 10px 10px 2px 1px var(--card-box-shadow-color); /* offset-x | offset-y | blur-radius | spread-radius | color */
+  display: flex;
+  margin: 5px 0;
+}
+
+
+.accommodations .hotel-image-container {
+  position: absolute;
+  top: 0;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.accommodations .accommodation-title {
+    /* TODO: Add font style here */
+    padding: 5px 0;
+}
+
+.accommodations .accommodation-price {
+    /* TODO: Add font style here */
+    padding: 5px 0;
+}
+
+.accommodations .review {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.accommodations .show-more {
+    /* TODO: Add font style here */
+    font-weight: bold;
+    padding: 5px 0;
+
 }
