@@ -40,3 +40,44 @@
 .cta .search-icon-container {
   display: absolute;
 }
+
+.cta .primary-background {
+  color: var(--primary);
+}
+
+.fa-search {
+  color: white;
+}
+
+.filter-seciton .header {
+  /* TODO: ADD FONT STYLE*/
+  color: black;
+}
+
+.filter-seciton .filter-background {
+  border: 1px var(--filter-border-grey) solid; /* TODO: GET COLOR FOR BORDER */
+  border-radius: 17px; /* TODO: GET RADIUS */
+  display:  flex;
+  padding: 15px;
+}
+
+.filter-seciton .icon-container {
+  background: var(--filter-icon-background);
+}
+
+.filter-section .fa {
+  color: var(--filter-icon-color);
+}
+
+.filter-section .filter-title {
+  /* TODO: Font information here */
+}
+
+.filter-section .info {
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-seciton .info-content {
+  /* TODO: Font information here */
+}

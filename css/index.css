@@ -7,4 +7,5 @@ html {
 }
 @import url(./variables.css);
 @import url(./header.css);
-@import url(/cta.css)
+@import url(./cta.css);
+@import url(./mostpopular.css);

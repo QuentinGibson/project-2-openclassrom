@@ -1,0 +1,25 @@
+.most-popular .header {
+  /* TODO: Font information here */
+}
+
+.most-popular .hotel-card {
+  padding: 5px;
+  border-radius: 17px;
+}
+
+.most-popular .hotel-image {
+  width: 100%;
+  height: 100%;
+}
+
+.most-popular .hotel-card .hotel-title {
+    /* TODO: Font information here */
+}
+
+.most-popular .hotel-card .hotel-price {
+    /* TODO: Font information here */
+}
+
+.most-popular .hotel-card .rating {
+    /* TODO: Add layout for star icons*/
+}
