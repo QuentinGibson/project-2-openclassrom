@@ -1,10 +1,19 @@
 #footer .footer-list {
+  flex-direction: column;
   display: flex;
-
+  list-style-type: none;
 }
 
 #footer .sublist {
+  font-size: 16px;
   display: flex;
+  list-style-type: none;
+  flex-direction: column;
+  font-family: Raleway, sans-serif;
+  padding: 0;
+}
+
+#footer .list-item {
 }
 
 #footer .list-title {
@@ -30,6 +39,7 @@
   /* TODO: Add font style here */
   font-size: 12px;
   padding: 10px 0;
+  text-decoration: none;
 }
 
 #footer a:visited {

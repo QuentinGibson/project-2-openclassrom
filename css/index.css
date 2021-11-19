@@ -1,9 +1,10 @@
 @import "variables.css";
 @import "header.css";
-@import url(./cta.css);
-@import url(./mostpopular.css);
-/* @import url(./accommodations.css); */
-/* @import url(./activities.css); */
+@import "./cta.css";
+@import "./mostpopular.css";
+@import "./accommodations.css";
+@import "activities.css";
+@import "footer.css";
 
 html {
     box-sizing: border-box;
@@ -12,6 +13,10 @@ html {
     box-sizing: inherit;
 }
 
+.hotel-card-content {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
 section {
     padding: 10px
 }

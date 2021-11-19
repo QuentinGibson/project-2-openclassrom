@@ -6,30 +6,81 @@
 .accommodations .accommodation-card {
   background: white;
   border-radius: 17px;
-  box-shadow: 10px 10px 2px 1px var(--card-box-shadow-color); /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 0px 40px 4px  rgba(0, 0, 0, 0.2); /* offset-x | offset-y | blur-radius | spread-radius | color */
   display: flex;
+  flex-direction: column;
   margin: 5px 0;
+  width: 330px;
+}
+
+.accommodations .accommodations-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.accommodations .hotel-card-content {
+  padding: 0 0 15px 15px;
 }
 
 
 .accommodations .hotel-image-container {
-  position: absolute;
-  top: 0;
-  height: 30px;
+  position: relative;
+  height: 116px;
+  width: 100%;
   margin-bottom: 5px;
+  border-radius: 17px 17px 0 0;
+}
+.background-image {
+  height: 100%;
+  border-radius: 17px 17px 0 0;
+  width: 100%;
+  position: relative;
+}
+
+.accommodations .hotel-image-container .marcus-loke {
+  background: no-repeat center / cover url("../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+}
+
+.accommodations .hotel-image-container .fred-kleber {
+  background: no-repeat center / cover url("../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg")
+}
+
+.accommodations .hotel-image-container .reisetopia {
+  background: no-repeat center / cover url("../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+}
+
+.accommodations .hotel-image-container .annie-spratt {
+  background: no-repeat center / cover url("../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+}
+
+.accommodations .hotel-image-container .nicate-lee {
+  background: no-repeat center / cover url("../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+}
+
+.accommodations .hotel-image-container .febrian-zakaria2 {
+  background: no-repeat center / cover url("../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 }
 
 .accommodations .accommodation-title {
     /* TODO: Add font style here */
-    padding: 5px 0;
+    padding-top: 5px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .accommodations .accommodation-price {
     /* TODO: Add font style here */
-    padding: 5px 0;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
 }
 
 .accommodations .review {
+  color: var(--primary);
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -38,6 +89,9 @@
 
 .accommodations .show-more {
     /* TODO: Add font style here */
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
     font-weight: bold;
     padding: 5px 0;
 
