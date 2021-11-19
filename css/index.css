@@ -1,7 +1,7 @@
 @import "variables.css";
 @import "header.css";
 @import url(./cta.css);
-/* @import url(./mostpopular.css); */
+@import url(./mostpopular.css);
 /* @import url(./accommodations.css); */
 /* @import url(./activities.css); */
 
@@ -12,6 +12,6 @@ html {
     box-sizing: inherit;
 }
 
-main {
-    margin-left: 20px;
+section {
+    padding: 10px
 }

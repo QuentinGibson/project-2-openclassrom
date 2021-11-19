@@ -12,9 +12,29 @@
 }
 
 .cta .searchbar-container {
-  border: 1px var(--search-grey-border) solid;
-  border-radius: 15px;
+  border: 1px var(--icon-grey-background) solid;
+  border-radius: 17px;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.searchbar-content-container input {
+  border: inherit;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.searchbar-content-container input:focus,
+.searchbar-content-container input:active {
+  outline: inherit;
+}
+
+.searchbar-content-container {
+  border: none;
+  outline: none;
+  margin-left: 15px;
 }
 
 .cta .location-icon {
@@ -23,13 +43,16 @@
   left: 0;
   height: 50px;
   width: 50px;
-  border-radius: 15px 0 0 15px;
+  border-radius: 17px 0 0 17px;
 }
 .grey-icon-background {
   background-color: var(--icon-grey-background);
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 200px;
+  font-size: 18px; 
+  border-radius:  17px 0 0 17px;
 }
 
 .searchbar-content-container {
@@ -49,10 +72,17 @@
 .cta .search-icon-container {
   position: relative;
   display: inline-flex;
+  display: flex;
+  align-items: center;
+  border-radius: 17px 17px 17px 17px;
 }
 
-.search-icon-container .primary-background {
+.search-icon-container.primary-background {
   background-color: var(--primary);
+  display: flex;
+  align-content: center;
+  min-width: 60px;
+  justify-content: center;
 }
 
 .fa-search {
@@ -90,4 +120,46 @@
 
 .filter-seciton .info-content {
   /* TODO: Font information here */
+}
+
+.filter__top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.filter-background{
+  border: 1px var(--icon-grey-background) solid;
+  border-radius: 17px;
+
+  padding: 20px;
+  position: relative;
+  margin: 10px 5px;
+}
+
+.icon-container {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.filter-title {
+  display: inline;
+}
+
+.filter__top:first-child {
+  margin-top: 0px;
+}
+
+.filter__top:last-child {
+  margin-bottom: 0px;
+}
+
+.info .icon-container {
+  border: 1px var(--icon-grey-background) solid;
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
 }
