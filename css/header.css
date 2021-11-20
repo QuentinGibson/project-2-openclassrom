@@ -17,7 +17,8 @@
     padding: 0;
 }
 .list-container .list-item {
-    color: var(--menu-grey);
+    font-family: 'Raleway', sans-serif;
+ color: var(--menu-grey);
     width: 50%;
     padding: 15px 0;
     border-bottom: 2px var(--menu-grey) solid;
