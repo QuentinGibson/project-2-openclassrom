@@ -6,9 +6,10 @@
   width: 300px;
 }
 
-.cta .contennt-sub {
+.cta .content-sub {
   font-size: 16px;
   font-weight: 300;
+  color: rgba(0, 0, 0, 0.7)
 }
 
 .cta .searchbar-container {
@@ -102,7 +103,7 @@
 }
 
 .filter-seciton .icon-container {
-  background: var(--filter-icon-background);
+  background: #f8fbff;
 }
 
 .filter-section .fa {
@@ -111,6 +112,7 @@
 
 .filter-section .filter-title {
   /* TODO: Font information here */
+  padding: 0 20px;
 }
 
 .filter-section .info {
@@ -129,22 +131,32 @@
 
 
 .filter-background{
-  border: 1px var(--icon-grey-background) solid;
-  border-radius: 17px;
-
-  padding: 20px;
+  border: 3px var(--icon-grey-background) solid;
+  border-radius: 25px;
   position: relative;
   margin: 10px 5px;
+  display: flex;
+  justify-content: space-around;
+  /* width: 100%; */
 }
 
 .icon-container {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   margin-right: 10px;
+  color: var(--primary);
+  width: 50px;
+  position: relative;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: -1px;
+  background: #f8fbff;
 }
 
 .filter-title {
   display: inline;
+  font-weight: 700;
 }
 
 .filter__top:first-child {
@@ -155,6 +167,7 @@
   margin-bottom: 0px;
 }
 
+
 .info .icon-container {
   border: 1px var(--icon-grey-background) solid;
   border-radius: 50px;
@@ -163,3 +176,4 @@
   display: flex;
   justify-content: center;
 }
+
