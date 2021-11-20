@@ -100,6 +100,7 @@
   border-radius: 17px; /* TODO: GET RADIUS */
   display:  flex;
   padding: 15px;
+  height: 50px;
 }
 
 .filter-seciton .icon-container {
@@ -113,6 +114,8 @@
 .filter-section .filter-title {
   /* TODO: Font information here */
   padding: 0 20px;
+  padding-left: 60px;
+  font-family: 'Raleway';
 }
 
 .filter-section .info {
@@ -131,10 +134,12 @@
 
 
 .filter-background{
-  border: 3px var(--icon-grey-background) solid;
+  border: 2px var(--icon-grey-background) solid;
   border-radius: 25px;
   position: relative;
   margin: 10px 5px;
+  margin-left: 40px;
+  min-width: 150px;
   display: flex;
   justify-content: space-around;
   /* width: 100%; */
@@ -142,15 +147,16 @@
 
 .icon-container {
   display: inline-flex;
+  left: 0;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
   color: var(--primary);
   width: 50px;
-  position: relative;
-  height: 50px;
+  position: absolute;
+  height: 53px;
+  margin-top: -1px;
   border-radius: 50px;
-  margin-left: -1px;
+  margin-left: -10px;
   background: #f8fbff;
 }
 
