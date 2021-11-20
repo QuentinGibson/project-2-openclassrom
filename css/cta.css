@@ -6,6 +6,11 @@
   width: 300px;
 }
 
+.cta .searchbar-container__top {
+  display: flex;
+  justify-content: center;
+}
+
 .cta .content-sub {
   font-size: 16px;
   font-weight: 300;
