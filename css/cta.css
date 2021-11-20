@@ -13,7 +13,7 @@
 }
 
 .cta .searchbar-container {
-  border: 1px var(--icon-grey-background) solid;
+  /* border: 1px var(--icon-grey-background) solid; */
   border-radius: 17px;
   position: relative;
   display: flex;
@@ -22,9 +22,14 @@
 }
 
 .searchbar-content-container input {
+  padding-left: 50px;
   border: inherit;
   font-weight: 700;
+  height: 50px;
   font-size: 16px;
+  border-top: 2px var(--icon-grey-background) solid;
+  border-bottom: 2px var(--icon-grey-background) solid;
+  z-index: 3;
 }
 
 .searchbar-content-container input:focus,
@@ -39,9 +44,10 @@
 }
 
 .cta .location-icon {
-  position: relative;
+  position: absolute;
   display: inline-flex;
   left: 0;
+  z-index: 4;
   height: 50px;
   width: 50px;
   border-radius: 17px 0 0 17px;
@@ -82,7 +88,9 @@
   background-color: var(--primary);
   display: flex;
   align-content: center;
-  min-width: 60px;
+  z-index: 5;
+  margin-left: -10px;
+  width: 60px;
   justify-content: center;
 }
 
@@ -114,7 +122,7 @@
 .filter-section .filter-title {
   /* TODO: Font information here */
   padding: 0 20px;
-  padding-left: 60px;
+  padding-left: 10px;
   font-family: 'Raleway';
 }
 
@@ -145,19 +153,19 @@
   /* width: 100%; */
 }
 
-.icon-container {
+.filter-background .icon-container {
   display: inline-flex;
   left: 0;
   align-items: center;
   justify-content: center;
   color: var(--primary);
   width: 50px;
-  position: absolute;
+  position: relative;
   height: 53px;
   margin-top: -1px;
   border-radius: 50px;
   margin-left: -10px;
-  background: #f8fbff;
+  background: #deebff;
 }
 
 .filter-title {
@@ -180,6 +188,14 @@
   width: 30px;
   height: 30px;
   display: flex;
+  color: var(--primary);
+  align-items: center;
   justify-content: center;
+}
+
+.info .info-content__container {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
 }
 

@@ -1,5 +1,7 @@
 .most-popular .header {
   /* TODO: Font information here */
+  font-family: 'Raleway', sans-serif;
+  font-size: 22px;
 }
 .grey-background {
   background: var(--menu-grey)
