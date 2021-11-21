@@ -1,7 +1,9 @@
+#footer {
+  padding: 40px 6px;
+  background: #F2F2F2;
+}
 #footer .footer-list {
-  flex-direction: column;
-  display: flex;
-  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
 }
 
 #footer .sublist {
@@ -12,10 +14,13 @@
 }
 
 #footer .list-item {
+    margin-bottom: 40px;
+    list-style-type: none;
 }
 
 #footer .list-title {
   margin: 0;
+  margin-bottom: 20px;
   color: var(--footer-title-color);
   font-size: 18px;
   font-weight: 700;
@@ -29,9 +34,9 @@
   color: var(--footer-sublist-color);
   /* TODO: Add font style here */
   font-size: 16px;
-  padding: 10px 0;
+  padding-bottom: 12px;
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 400;
   font-family: "Raleway";
 }
 

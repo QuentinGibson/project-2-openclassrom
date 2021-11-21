@@ -7,7 +7,7 @@
 
 .logo {
     max-width: 100%;
-    padding-left: 50px;
+    width: 96px;
 }
 
 .list-container {
@@ -17,6 +17,8 @@
     padding: 0;
 }
 .list-container .list-item {
+    letter-spacing: .3px;
+    font-size: 16px;
     font-family: 'Raleway', sans-serif;
     color: var(--menu-grey);
     width: 50%;
