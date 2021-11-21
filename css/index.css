@@ -13,6 +13,8 @@ html {
     box-sizing: inherit;
 }
 
+.filter-content-container {display: flex;padding-left: 40px;}
+
 section {
     display: flex;
     justify-content: center;
