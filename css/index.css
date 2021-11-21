@@ -41,6 +41,13 @@ section {
     flex-direction: column;
 }
 
+@media screen and (min-width: 992px) {
+    .section-container {
+        padding: 25px 50px;
+    }
+    
+}
+
 .center-icon {
     display: flex;
     justify-content: center;

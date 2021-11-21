@@ -42,3 +42,21 @@
     border-bottom: 3px white solid;
 }
 
+@media screen and (min-width: 992px) {
+    .header__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    .list-container .list-item {
+        border-top: 3px white solid;
+        padding-right: 50px;
+    }
+    .list-container .list-item:hover {
+        border-top: 3px var(--menu-grey) solid;
+        border-bottom: 3px white solid;
+    }
+
+    .list-container .list-item.active:hover {
+        border-top: 3px var(--primary) solid;
+    }
+}
