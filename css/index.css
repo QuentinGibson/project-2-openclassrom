@@ -13,6 +13,12 @@ html {
     box-sizing: inherit;
 }
 
+.activity-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .filter-content-container {display: flex;padding-left: 40px;}
 
 section {
@@ -45,7 +51,38 @@ section {
     .section-container {
         padding: 25px 50px;
     }
-    
+
+.section-group .section-container {flex-direction: row-reverse;justify-content: space-between;}
+
+    .section-group {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+   aside {
+       background: #FBFBFB;
+       width: 33%;
+       border-radius: 25px;
+       padding: 50px;
+   } 
+
+   .accommodations {
+       background: #FBFBFB;
+       width: 66%;
+       border-radius: 25px;
+       padding: 50px;
+   }
+
+   .accommodations .accommodation-card {
+       width: 30%;
+       margin: 10px 0;
+   }
+
+   .accommodations .accommodations-list {
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: stretch;
+   }
 }
 
 .center-icon {
@@ -59,4 +96,18 @@ section {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+
+.text-center-flex-container {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+}
+
+.image-container {
+    height: 170px;
+    border-radius: 17px 17px 0 0;
+    width: 100%;
+    object-fit: cover;
 }

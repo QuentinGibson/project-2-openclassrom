@@ -1,9 +1,22 @@
+@media screen and (min-width: 992px) {
+  .footer .section-container {
+    flex-direction: row;
+    width: 80%;
+  }
+  #footer .footer-list.footer-list {
+    flex-direction:  row;
+  }
+}
 #footer {
   padding: 40px 6px;
   background: #F2F2F2;
 }
 #footer .footer-list {
+  display: flex;
+  justify-content: space-between;
   font-family: 'Raleway', sans-serif;
+  width: 80%;
+  flex-direction: column;
 }
 
 #footer .sublist {

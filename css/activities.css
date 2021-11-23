@@ -1,3 +1,76 @@
+@media screen and (min-width: 996px) {
+  .activities .activity-card.activity-card {
+    height: 100%;
+    width: 300px;
+  }
+
+  .activities .activity-card .image-container {
+    height: 90%;
+  }
+  .activities .activity-group .activity-card .image-container.image-container {
+    height: 85%;
+  }
+  .activities .activity-card .text-center-flex-container {
+    height: 15%;
+  }
+  .activities .activity-card.small .text-center-flex-container {
+    height: 30%;
+  }
+  .activities .activity-list-container {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+  .activity-group.activity-group {
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    margin: 0 40px;
+  }
+
+  .activities .activity-group .activity-card .activity-image-container {
+  height: 70%;
+  }
+
+  .activities .activity-card.small {
+    height: 40%;
+    position: relative;
+    width: 100%;
+    /* display: block; */
+  }
+
+  .activities .activity-list-container.activity-list-container {
+    flex-direction: row;
+  }
+
+  .activities .activity-image-container {
+    height: 85%;
+  }
+
+  .activities .activity-group #small-card.activity-card{
+    width: 95%;
+    margin-bottom: 40px;
+  }
+
+  .activities .activity-card.activity-card:last-of-type {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .activities .activity-card.activity-card:first-of-type {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
 .activities {
   padding: 0;
   margin: 38px 0;
@@ -8,26 +81,28 @@
     font-weight: bold;
 }
 
-.activities .activity-card {
-  position: relative;
-  width: 100%;
-  box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 20%);
-  margin: 12px 0;
-  border-radius: 17px 17px 17px 17px;
-}
-
 .activities .activity-list-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.activities .activity-image-container {
+.activities .activity-card {
+  flex-direction: column;
   position: relative;
-  height: 135px;
   width: 100%;
-  margin-bottom: 5px;
-  border-radius: inherit;
+  box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 20%);
+  border-radius: 17px 17px 17px 17px;
+  display: flex;
+}
+
+.activities .activity-image-container {
+  overflow: hidden;
+  flex-grow: 2;
+  position: relative;
+  /* height: 66%; */
+  width: 100%;
+  border-radius: 17px 17px 0 0;
 }
 
 .activities .activity-image-container .activity-image {
@@ -38,11 +113,13 @@
 }
 
 .activities .activity-title {
+    flex-wrap: wrap;
+    display: inline-block;
     font-family: Raleway, sans-serif;
     font-size: 16px;
     font-weight: 700;
-    padding: 20px;
     margin: 0;
+    margin-left: 10px;
 }
 
 .activities .reno {
@@ -67,4 +144,13 @@
 
 .activities .lena {
   background: no-repeat center / cover url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+}
+
+
+.activities .activity-card:not(:first-of-type) {
+  margin-top: 10px;
+}
+
+.activities .activity-card:not(:last-of-type) {
+  margin-bottom: 10px;
 }

@@ -25,6 +25,7 @@
     padding: 15px 0;
     border-bottom: 3px white solid;
     display: flex;
+    align-content: center;
     justify-content: center;
 }
 
@@ -49,7 +50,7 @@
     }
     .list-container .list-item {
         border-top: 3px white solid;
-        padding-right: 50px;
+        /* padding-right: 50px; */
     }
     .list-container .list-item:hover {
         border-top: 3px var(--menu-grey) solid;
@@ -58,5 +59,9 @@
 
     .list-container .list-item.active:hover {
         border-top: 3px var(--primary) solid;
+    }
+    .navigation-text {
+        display: inline-block;
+        padding: 0 25px;
     }
 }
