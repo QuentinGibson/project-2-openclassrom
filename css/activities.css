@@ -1,7 +1,7 @@
 @media screen and (min-width: 996px) {
   .activities .activity-card.activity-card {
     height: 100%;
-    width: 300px;
+    width: 350px;
   }
 
   .activities .activity-card .image-container {
@@ -9,6 +9,9 @@
   }
   .activities .activity-group .activity-card .image-container.image-container {
     height: 85%;
+  }
+  .activities #small.activity-card .text-center-flex-container {
+    height: 35%;
   }
   .activities .activity-card .text-center-flex-container {
     height: 15%;
@@ -31,7 +34,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 350px;
     align-items: center;
     margin: 0 40px;
   }
@@ -56,8 +59,8 @@
   }
 
   .activities .activity-group #small-card.activity-card{
-    width: 95%;
-    margin-bottom: 40px;
+    width: 100%;
+    height: 47%;
   }
 
   .activities .activity-card.activity-card:last-of-type {
