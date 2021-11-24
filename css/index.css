@@ -6,6 +6,10 @@
 @import "activities.css";
 @import "footer.css";
 
+@media  screen and (min-width: 762px) and (max-width: 992px) {
+    
+}
+
 html {
     box-sizing: border-box;
 }

@@ -1,4 +1,17 @@
-@media screen and (min-width: 996px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .cta .searchbar-container__top.searchbar-container__top.searchbar-container__top {
+    justify-content: center;
+  }
+
+  .cta .content-container {
+    text-align: center;
+  }
+
+  .filter__top.filter__top {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 768px) {
   .cta .searchbar-container.searchbar-container {
     width: 385px;
   }
