@@ -149,6 +149,8 @@
 }
 
 .search-icon-container.primary-background {
+  border: 0;
+  cursor: pointer;
   position: absolute;
   background-color: var(--primary);
   display: flex;
