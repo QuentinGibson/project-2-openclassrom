@@ -8,15 +8,10 @@
     height: 200px;
     margin: 10px 0;
   }
-
-  .ac
 }
 
-  .accommodation-card-link {
-    width: 100%;
-  }
-.accommodations .header {
-    /* TODO: Add font style here */
+.accommodation-card-link {
+  width: 100%;
 }
 
 .accommodations .accommodation-card {

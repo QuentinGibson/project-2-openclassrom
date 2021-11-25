@@ -197,10 +197,6 @@
   flex-direction: row;
 }
 
-.filter-seciton .info-content {
-  /* TODO: Font information here */
-}
-
 .filter__top {
   display: flex;
   flex-wrap: wrap;
