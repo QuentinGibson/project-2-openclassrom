@@ -1,3 +1,6 @@
+.navigation-text:hover {
+    color: var(--primary)
+}
 .logo-container {
     display: flex;
     padding-top: 25px;

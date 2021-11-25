@@ -1,4 +1,5 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
+
   .cta .searchbar-container__top.searchbar-container__top.searchbar-container__top {
     justify-content: center;
   }
@@ -273,10 +274,11 @@
   height: 50px;
 }
 
-
 .info .info-content__top {
+  display: flex;
+  max-width: 450px;
+}
 
-display: flex;
-
-max-width: 450px;
+.filter-background:hover {
+  background: #d1d1d1;
 }
