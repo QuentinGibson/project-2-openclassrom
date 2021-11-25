@@ -94,3 +94,11 @@
 .hotel-card .hotel-card-content__text {
 
 }
+
+.hotel-card-link:hover {
+ color: var(--primary)
+}
+
+.show-more:hover {
+  color: var(--primary)
+}

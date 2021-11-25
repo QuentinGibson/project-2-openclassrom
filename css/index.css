@@ -77,7 +77,6 @@ section {
    }
 
    .accommodations .accommodation-card {
-       /* width: 20%; */
        height: inherit;
        margin-bottom: 10px;
    }

@@ -180,5 +180,10 @@
 }
 
 .activity-card-link {
-width: 100%;
+
+width: 100%;
+}
+
+.activity-card-link:hover {
+  color: var(--primary)
 }

@@ -106,3 +106,7 @@ flex-direction: column;
   object-fit: cover;
   height: 110px;
 }
+
+.accommodation-card:hover {
+  color: var(--primary);
+}
