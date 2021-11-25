@@ -1,3 +1,10 @@
+@media screen and (min-width: 768px) {
+  
+}
+
+.hotel-card-link {
+  width: 100%;
+}
 .most-popular .section-title-container {
   display: flex;
   justify-content: space-between;

@@ -63,22 +63,23 @@ section {
         flex-direction: row-reverse;
     }
    aside {
-       background: #FBFBFB;
+       background: #f2f2f2;
        width: 33%;
        border-radius: 25px;
        padding: 50px;
    } 
 
    .accommodations {
-       background: #FBFBFB;
+       background: #f2f2f2;
        width: 66%;
        border-radius: 25px;
        padding: 50px;
    }
 
    .accommodations .accommodation-card {
-       width: 30%;
-       margin: 10px 0;
+       /* width: 20%; */
+       height: inherit;
+       margin-bottom: 10px;
    }
 
    .accommodations .accommodations-list {
@@ -114,4 +115,9 @@ section {
     border-radius: 17px 17px 0 0;
     width: 100%;
     object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
 }

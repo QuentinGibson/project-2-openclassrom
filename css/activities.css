@@ -1,7 +1,27 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .activities .activity-card-link {
+
+  }
+  
+}
 @media screen and (min-width: 996px) {
+  .activities .activity-card-link {
+    height: 100%;
+    width: 22%;
+  }
+
+  .activity-card {
+    margin: 0;
+  }
+
   .activities .activity-card.activity-card {
     height: 100%;
-    width: 350px;
+    width: 100%;
+  }
+
+  .activities .activity-group .activity-card-link {
+    width: 100%;
+    height: 220px;
   }
 
   .activities .activity-card .image-container {
@@ -14,7 +34,7 @@
     height: 30%;
   }
   .activities .activity-card .text-center-flex-container {
-    height: 15%;
+    /* height: 15%; */
   }
   .activities .activity-card.small .text-center-flex-container {
     height: 30%;
@@ -29,14 +49,14 @@
     align-items: center;
   }
   .activity-group.activity-group {
+    height: 100%;
     justify-content: space-between;
     position: relative;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    width: 350px;
-    align-items: center;
-    margin: 0 40px;
+    width: 22%;
+    align-items: fl;
+    /* margin: 0 40px; */
   }
 
   .activities .activity-group .activity-card .activity-image-container {
@@ -60,7 +80,7 @@
 
   .activities .activity-group #small-card.activity-card{
     width: 100%;
-    height: 47%;
+    height: inherit;
   }
 
   .activities .activity-card.activity-card:last-of-type {
@@ -87,7 +107,7 @@
 .activities .activity-list-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .activities .activity-card {
@@ -97,6 +117,7 @@
   box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 20%);
   border-radius: 17px 17px 17px 17px;
   display: flex;
+  margin: 10px 0;
 }
 
 .activities .activity-image-container {
@@ -156,4 +177,8 @@
 
 .activities .activity-card:not(:last-of-type) {
   margin-bottom: 10px;
+}
+
+.activity-card-link {
+width: 100%;
 }
