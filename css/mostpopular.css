@@ -91,10 +91,6 @@
   justify-content: space-between;
 }
 
-.hotel-card .hotel-card-content__text {
-
-}
-
 .hotel-card-link:hover {
  color: var(--primary)
 }
