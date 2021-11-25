@@ -43,6 +43,10 @@ section {
     margin: auto;
 }
 
+.no-show {
+    display: none;
+}
+
 .section-container {
     padding: 25px 20px;
     display: flex;
