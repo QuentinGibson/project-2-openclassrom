@@ -45,7 +45,6 @@
 
 #footer .item-link {
   color: var(--footer-sublist-color);
-  /* TODO: Add font style here */
   font-size: 16px;
   padding-bottom: 12px;
   text-decoration: none;

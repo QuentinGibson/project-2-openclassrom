@@ -53,7 +53,6 @@
     }
     .list-container .list-item {
         border-top: 3px white solid;
-        /* padding-right: 50px; */
     }
     .list-container .list-item:hover {
         border-top: 3px var(--menu-grey) solid;
