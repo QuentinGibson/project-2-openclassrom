@@ -1,6 +1,7 @@
-.navigation-text:hover {
+nav li a:hover {
     color: var(--primary)
 }
+
 .header__logo-container {
     display: flex;
     padding-top: 25px;
@@ -13,13 +14,13 @@
     width: 96px;
 }
 
-.list-container {
+nav ul {
     display:  flex;
     flex-direction: row;
     list-style: none;
     padding: 0;
 }
-.list-container .list-item {
+nav ul .list-item {
     letter-spacing: .3px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
@@ -32,16 +33,16 @@
     justify-content: center;
 }
 
-.list-container .list-item:hover {
+nav ul .list-item:hover {
     border-bottom: 3px var(--menu-grey) solid;
 }
 
-.list-container .active:hover {
+nav ul .active:hover {
     border-bottom: 3px var(--primary) solid;
 }
 
 
-.list-container .active {
+nav ul .active {
     color: var(--primary);
     border-bottom: 3px white solid;
 }
@@ -51,18 +52,18 @@
         display: flex;
         justify-content: space-between;
     }
-    .list-container .list-item {
+    nav ul .list-item {
         border-top: 3px white solid;
     }
-    .list-container .list-item:hover {
+    nav ul .list-item:hover {
         border-top: 3px var(--menu-grey) solid;
         border-bottom: 3px white solid;
     }
 
-    .list-container .list-item.active:hover {
+    nav ul .list-item.active:hover {
         border-top: 3px var(--primary) solid;
     }
-    .navigation-text {
+    nav ul li a {
         display: inline-block;
         padding: 0 25px;
     }
