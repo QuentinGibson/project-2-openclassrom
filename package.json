@@ -1,15 +1,25 @@
 {
-  "name": "project-2",
+  "name": "project-2-openclassrom",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.4.1",
+    "sass": "^1.49.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:Compile": "sass ./css/sass:./css/output"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuentinGibson/project-2-openclassrom.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "prettier": "2.4.1"
-  }
+  "bugs": {
+    "url": "https://github.com/QuentinGibson/project-2-openclassrom/issues"
+  },
+  "homepage": "https://github.com/QuentinGibson/project-2-openclassrom#readme"
 }
