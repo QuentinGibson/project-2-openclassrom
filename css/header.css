@@ -1,7 +1,7 @@
 .navigation-text:hover {
     color: var(--primary)
 }
-.logo-container {
+.header__logo-container {
     display: flex;
     padding-top: 25px;
     justify-content: center;
