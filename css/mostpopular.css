@@ -20,6 +20,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 5px;
 }
 
 .most-popular .hotel-card {

@@ -68,14 +68,15 @@ section {
        background: #f2f2f2;
        width: 33%;
        border-radius: 25px;
-       padding: 50px;
+       padding: 10px 30px;
    } 
 
    .accommodations {
        background: #f2f2f2;
        width: 66%;
        border-radius: 25px;
-       padding: 50px;
+       padding: 10px 20px;
+
    }
 
    .accommodations .accommodation-card {
