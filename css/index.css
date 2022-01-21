@@ -1,5 +1,5 @@
 @import "variables.css";
-@import "header.css";
+@import "./output/header.css";
 @import "./cta.css";
 @import "./mostpopular.css";
 @import "./accommodations.css";

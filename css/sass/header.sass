@@ -1,72 +1,54 @@
 @import 'variables.sass'
+@import 'extension.sass'
+@import 'mixins.sass'
+
+@mixin navigationFont
+  font-size: 16px
+  font-family: 'Raleway', sans-serif
+  letter-spacing: .3px
+  color: $menu-grey
+
 nav 
-  li  
-    a 
+  a 
+    color: $footer-sublist-color
+    display: inline-block
+    padding: 0 25px
+  ul
+    display:  flex
+    flex-direction: row
+    list-style: none
+    padding: 0
+    .list-item
+      @include navigationFont
+      @extend %center-flex
+      border-bottom: 3px white solid
+      padding: 15px 0
+      width: 50%
+      &:hover 
+        @include desktop
+          @include hoverLine($menu-grey)
+          border-bottom: 3px white solid
+        border-bottom: 3px $menu-grey solid
+    .active
+      border-bottom: 3px white solid
       color: $primary
+      &:hover 
+        @include desktop
+          @include hoverLine($primary)
+        border-bottom: 3px $primary solid
 
-// .header__logo-container {
-//     display: flex;
-//     padding-top: 25px;
-//     justify-content: center;
-//     align-items: center;
-// }
+.list-item 
+  @include hoverLine
 
-// .header__logo-container a img {
-//     max-width: 100%;
-//     width: 96px;
-// }
+.header__top 
+  @include desktop
+    display: flex
+    justify-content: space-between
 
-// nav ul {
-//     display:  flex;
-//     flex-direction: row;
-//     list-style: none;
-//     padding: 0;
-// }
-// nav ul .list-item {
-//     letter-spacing: .3px;
-//     font-size: 16px;
-//     font-family: 'Raleway', sans-serif;
-//     color: var(--menu-grey);
-//     width: 50%;
-//     padding: 15px 0;
-//     border-bottom: 3px white solid;
-//     display: flex;
-//     align-content: center;
-//     justify-content: center;
-// }
+.header__logo-container 
+  @extend %center-flex
+  padding-top: 25px
 
-// nav ul .list-item:hover {
-//     border-bottom: 3px var(--menu-grey) solid;
-// }
-
-// nav ul .active:hover {
-//     border-bottom: 3px var(--primary) solid;
-// }
-
-
-// nav ul .active {
-//     color: var(--primary);
-//     border-bottom: 3px white solid;
-// }
-
-// @media screen and (max-width: 992px) {
-//     .header__top {
-//         display: flex;
-//         justify-content: space-between;
-//     }
-//     nav ul .list-item {
-//         border-top: 3px white solid;
-//     }
-//     nav ul .list-item:hover {
-//         border-top: 3px var(--menu-grey) solid;
-//         border-bottom: 3px white solid;
-//     }
-
-//     nav ul .list-item.active:hover {
-//         border-top: 3px var(--primary) solid;
-//     }
-//     nav ul li a {
-//         display: inline-block;
-//         padding: 0 25px;
-//     }
-// }
+.header__logo-container a img 
+  max-width: 100%
+  width: 96px

@@ -1,5 +1,69 @@
-nav li a {
+.header__logo-container, nav ul .list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: #121212;
+  display: inline-block;
+  padding: 0 25px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+nav ul .list-item {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.3px;
+  color: #c0c0c0;
+  border-bottom: 3px white solid;
+  padding: 15px 0;
+  width: 50%;
+}
+nav ul .list-item:hover {
+  border-bottom: 3px #c0c0c0 solid;
+}
+@media (min-width: 993px) {
+  nav ul .list-item:hover {
+    border-top: 3px #c0c0c0 solid;
+    border-bottom: 3px white solid;
+  }
+}
+nav ul .active {
+  border-bottom: 3px white solid;
   color: #0065fc;
+}
+nav ul .active:hover {
+  border-bottom: 3px #0065fc solid;
+}
+@media (min-width: 993px) {
+  nav ul .active:hover {
+    border-top: 3px #0065fc solid;
+  }
+}
+
+.list-item {
+  border-top: 3px #fff solid;
+}
+
+@media (min-width: 993px) {
+  .header__top {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.header__logo-container {
+  padding-top: 25px;
+}
+
+.header__logo-container a img {
+  max-width: 100%;
+  width: 96px;
 }
 
 /*# sourceMappingURL=header.css.map */
