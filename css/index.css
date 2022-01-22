@@ -1,6 +1,6 @@
 @import "variables.css";
 @import "./output/header.css";
-@import "./cta.css";
+@import "./output/cta.css";
 @import "./mostpopular.css";
 @import "./accommodations.css";
 @import "activities.css";

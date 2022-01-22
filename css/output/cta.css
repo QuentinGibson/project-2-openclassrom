@@ -2,4 +2,16 @@
   justify-content: center;
 }
 
+#cta .cta__action-phrase h4, #cta .cta__action-phrase h3 {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+#cta .cta__action-phrase {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
 /*# sourceMappingURL=cta.css.map */
