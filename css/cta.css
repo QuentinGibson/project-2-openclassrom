@@ -42,8 +42,7 @@
     height: 100%;
   }
 }
-#cta .content-header {
-  margin: 0;
+#cta .cta__header {
   margin-bottom: 12px;
   font-size: 22px;
   font-weight: 800;
@@ -60,7 +59,7 @@
   display:none;
 }
 
-#cta .content-sub {
+#cta .cta__sub {
   margin: 0;
   margin-bottom: 32px;
   font-weight: 300;
