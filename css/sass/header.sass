@@ -25,25 +25,25 @@ nav
       padding: 15px 0
       width: 50%
       &:hover 
-        @include desktop
+        border-bottom: 3px $menu-grey solid
+        @include x-breakpoint(mobile)
           @include hoverLine($menu-grey)
           border-bottom: 3px white solid
-        border-bottom: 3px $menu-grey solid
     .active
       border-bottom: 3px white solid
       color: $primary
       &:hover 
-        @include desktop
-          @include hoverLine($primary)
-        border-bottom: 3px $primary solid
+        @include hoverLine($primary)
+        @include x-breakpoint(mobile)
+          border-bottom: 3px $primary solid
 
 .list-item 
   @include hoverLine
 
 .header__top 
-  @include desktop
-    display: flex
-    justify-content: space-between
+  display: flex
+  justify-content: space-between
+  @include x-breakpoint(mobile)
 
 .header__logo-container 
   @extend %center-flex
