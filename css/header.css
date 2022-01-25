@@ -1,7 +1,8 @@
 .navigation-text:hover {
     color: var(--primary)
 }
-.header__logo-container {
+
+.header__logo {
     display: flex;
     padding-top: 25px;
     justify-content: center;
@@ -13,7 +14,11 @@
     width: 96px;
 }
 
-nav {
+ul {
+    display: flex;
+}
+
+nav .container {
     display:  flex;
     flex-direction: row;
     list-style: none;
@@ -47,7 +52,8 @@ nav .active {
 }
 
 @media screen and (min-width: 992px) {
-    .header {
+
+    header .container {
         display: flex;
         justify-content: space-between;
     }

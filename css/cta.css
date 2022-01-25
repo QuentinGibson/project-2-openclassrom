@@ -1,10 +1,10 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
-  .cta .searchbar-container__top.searchbar-container__top.searchbar-container__top {
+  #cta .searchbar-container__top.searchbar-container__top.searchbar-container__top {
     justify-content: center;
   }
 
-  .cta .content-container {
+  #cta .cta__action-phrase {
     text-align: center;
   }
 
@@ -13,36 +13,36 @@
   }
 }
 @media screen and (min-width: 768px) {
-  .cta .searchbar-container.searchbar-container {
+  #cta .searchbar-container.searchbar-container {
     width: 385px;
   }
 
-  .cta .searchbar-search-text.searchbar-search-text {
+  #cta .searchbar-search-text.searchbar-search-text {
     display: inline;
   }
 
-  .cta .searchbar-container__top.searchbar-container__top {
+  #cta .searchbar-container__top.searchbar-container__top {
     justify-content: flex-start;
   } 
 
-  .cta .fas.fa-search {
+  #cta .fas.fa-search {
     display: none;
   }
 
-  .cta .searchbar-search-text {
+  #cta .searchbar-search-text {
     color: white;
     font-size: 16px;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
   }
 
-  .cta .search-icon-container.primary-background.primary-background {
+  #cta .search-icon-container.primary-background.primary-background {
     border-radius: 0 17px 17px 0;
     width: 80px;
     height: 100%;
   }
 }
-.cta .content-header {
+#cta .content-header {
   margin: 0;
   margin-bottom: 12px;
   font-size: 22px;
@@ -51,16 +51,16 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.cta .searchbar-container__top {
+#cta .searchbar-container__top {
   display: flex;
   justify-content: center;
 }
 
-.cta .searchbar-search-text {
+#cta .searchbar-search-text {
   display:none;
 }
 
-.cta .content-sub {
+#cta .content-sub {
   margin: 0;
   margin-bottom: 32px;
   font-weight: 300;
@@ -68,7 +68,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.cta .searchbar-container {
+#cta .searchbar-container {
   border-radius: 17px;
   position: relative;
   display: flex;
@@ -100,7 +100,7 @@
   margin-left: 15px;
 }
 
-.cta .location-icon {
+#cta .location-icon {
   position: absolute;
   display: inline-flex;
   left: 0;
@@ -136,7 +136,7 @@
     font-weight: bold;
 }
 
-.cta .search-icon-container {
+#cta .search-icon-container {
   position: relative;
   display: inline-flex;
   display: flex;
