@@ -1,23 +1,27 @@
+@import mixins
 // @import "searchbar.sass"
 // @import "information.sass"
-// SearchBar
-#cta .cta__searchbar
-  justify-content: center
-  
 
+// SearchBar
 // Information
-%action-phrase-font-style
+%action-phrase-font-header
   font-size: 22px
   font-weight: 800
   line-height: 30px
   font-family: 'Raleway', sans-serif
-
+%action-phrase-font-sub  
+  margin: 0
+  margin-bottom: 32px
+  font-weight: 300
+  font-size: 16px
+  font-family: 'Raleway', sans-serif
+  font-weight: 300
 #cta .cta__action-phrase
   margin: 0
   margin-bottom: 12px
   text-align: center
   h3 
-    @extend %action-phrase-font-style
+    @extend %action-phrase-font-header
   h4
     @extend %action-phrase-font-style
   .cta__searchbar
@@ -31,7 +35,6 @@
 //   .cta .searchbar-container.searchbar-container {
 //     width: 385px;
 //   }
-
 //   .cta .searchbar-search-text.searchbar-search-text {
 //     display: inline;
 //   }
@@ -66,13 +69,6 @@
 //   display:none;
 // }
 
-// .cta .content-sub {
-//   margin: 0;
-//   margin-bottom: 32px;
-//   font-weight: 300;
-//   font-size: 16px;
-//   font-family: 'Raleway', sans-serif;
-// }
 
 // .cta .searchbar-container {
 //   border-radius: 17px;
