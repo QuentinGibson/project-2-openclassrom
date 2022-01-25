@@ -1,13 +1,19 @@
-$tablet-width: 768px
-$desktop-width: 993px
+@mixin x-breakpoints($point, $bp-mobile-width: 640px, $bp-tablet-width: 1024px) 
+	$bp-mobile: '(max-width: #{$bp-mobile-width})'
+	$bp-tablet: '(min-width: #{$bp-mobile-width}) and (max-width: #{$bp-tablet-width})'
+	$bp-desktop: '(min-width: #{$bp-tablet-width})'
 
-@mixin tablet
-  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px})
-    @content
-
-@mixin desktop 
-  @media (min-width: #{$desktop-width})
-    @content
+	@if $point == mobile
+		@media #{$bp-mobile} 
+			@content
+	@else if $point == tablet 
+		@media #{$bp-tablet} 
+			@content
+	@else if $point == desktop 
+		@media #{$bp-desktop} 
+			@content
+	@else 
+		@warn "You are requesting an invalid breakpoint: `#{$point}`."
 
 @mixin hoverLine($color: #fff) 
   border-top: 3px $color solid
