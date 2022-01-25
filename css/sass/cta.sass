@@ -1,12 +1,21 @@
 // @import "searchbar.sass"
 // @import "information.sass"
 // SearchBar
-
+.hidden-mobile
+  @include mobile
+    display:hidden
+.cta__searchbar
+    width: 385px
 // Information
-%action-phrase-font-style
+%action-phrase-font-header
   font-size: 22px
   font-weight: 800
   line-height: 30px
+  font-family: 'Raleway', sans-serif
+%action-phrase-font-sub
+  font-size: 18px
+  font-weight: 300
+  font-size: 16px
   font-family: 'Raleway', sans-serif
 
 #cta .cta__action-phrase
@@ -16,22 +25,17 @@
   justify-content: center
   align-items: center
   h3 
-    @extend %action-phrase-font-style
+    @extend %action-phrase-font-header
   h4
-    @extend %action-phrase-font-style
+    @extend %action-phrase-font-sub
+    margin: 0
+    margin-bottom: 32px
 // @media screen and (min-width: 768px) and (max-width: 992px) {
-//   .cta .content-container {
-//     text-align: center;
-//   }
 //   .filter__top.filter__top {
 //     justify-content: center;
 //   }
 // }
 // @media screen and (min-width: 768px) {
-//   .cta .searchbar-container.searchbar-container {
-//     width: 385px;
-//   }
-
 //   .cta .searchbar-search-text.searchbar-search-text {
 //     display: inline;
 //   }
@@ -62,17 +66,6 @@
 //   justify-content: center;
 // }
 
-// .cta .searchbar-search-text {
-//   display:none;
-// }
-
-// .cta .content-sub {
-//   margin: 0;
-//   margin-bottom: 32px;
-//   font-weight: 300;
-//   font-size: 16px;
-//   font-family: 'Raleway', sans-serif;
-// }
 
 // .cta .searchbar-container {
 //   border-radius: 17px;
