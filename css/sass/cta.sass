@@ -1,4 +1,4 @@
-// @import "searchbar.sass"
+// @import "siearchbar.sass"
 // @import "information.sass"
 // SearchBar
 .hidden-mobile
@@ -6,6 +6,23 @@
     display:hidden
 .cta__searchbar
     width: 385px
+  input
+    color: white
+    font-size: 16px
+    font-weight: 600
+    font-family: 'Raleway', sans-serif
+    width: 100%
+    padding-left: 50px
+    border: inherit
+    font-weight: 700
+    height: 50px
+    font-size: 16px
+    border-top: 2px var(--filter-border-grey) solid
+    border-bottom: 2px var(--filter-border-grey) solid
+    z-index: 3
+    &:focus, &:active 
+      outline: inherit
+
 // Information
 %action-phrase-font-header
   font-size: 22px
@@ -48,12 +65,6 @@
 //     display: none;
 //   }
 
-//   .cta .searchbar-search-text {
-//     color: white;
-//     font-size: 16px;
-//     font-weight: 600;
-//     font-family: 'Raleway', sans-serif;
-//   }
 
 //   .cta .search-icon-container.primary-background.primary-background {
 //     border-radius: 0 17px 17px 0;
@@ -75,23 +86,7 @@
 //   width: 100%;
 // }
 
-// .searchbar-content-container input {
-//   width: 100%;
-//   font-family: 'Raleway', sans-serif;
-//   padding-left: 50px;
-//   border: inherit;
-//   font-weight: 700;
-//   height: 50px;
-//   font-size: 16px;
-//   border-top: 2px var(--filter-border-grey) solid;
-//   border-bottom: 2px var(--filter-border-grey) solid;
-//   z-index: 3;
-// }
 
-// .searchbar-content-container input:focus,
-// .searchbar-content-container input:active {
-//   outline: inherit;
-// }
 
 // .searchbar-content-container {
 //   border: none;
