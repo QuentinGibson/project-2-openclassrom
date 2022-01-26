@@ -1,46 +1,20 @@
-
-.filter-seciton .filter-background {
-  border: 1px var(--filter-border-grey) solid; 
-  border-radius: 17px;
-  display:  flex;
-  padding: 15px;
-  height: 50px;
-}
-
-.filter-seciton .header {
-  color: black;
-}
-
-.filter-background:hover {
+.filter__button-content:hover {
   background: #d1d1d1;
 }
 
 .filter__button-icon {
-  position: absolute;
   width: 50px;
   left: 0;
   height: 50px;
-}
-.filter-seciton .icon-container {
-  background: #DEEBFF;
-}
-
-.filter-section .fa {
-  color: var(--filter-icon-color);
+  margin-right: 10px;
 }
 
 .filter-section .filter-title {
-  padding: 0 20px;
-  padding-left: 10px;
   font-family: 'Raleway';
 }
 
-.filter-section .info {
-  display: flex;
-  flex-direction: row;
-}
 
-.filter__top {
+.filter__button-container {
   display: flex;
   flex-wrap: wrap;
 }
@@ -48,13 +22,13 @@
 
 .filter__button-content {
   border: 2px var(--icon-grey-background) solid;
-  padding: 0 10px;
+  padding-right: 20px;
   border-radius: 25px;
   position: relative;
   margin: 0 20px 20px 0;
   min-width: 150px;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .filter__button-icon div{
@@ -73,12 +47,9 @@
 .filter__button-title {
   display: inline;
   font-weight: 700;
-}
 
-.filter__top:first-child {
-  margin-top: 0px;
 }
-
-.filter__top:last-child {
-  margin-bottom: 0px;
+.filter-section .info {
+  display: flex;
+  flex-direction: row;
 }
