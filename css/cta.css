@@ -1,46 +1,32 @@
-@media screen and (min-width: 768px) and (max-width: 992px) {
-
-  #cta .searchbar-container__top.searchbar-container__top.searchbar-container__top {
-    justify-content: center;
-  }
-
-  #cta .cta__action-phrase {
-    text-align: center;
-  }
-
-  .filter__top.filter__top {
-    justify-content: center;
-  }
+.searchbar__button i {
+  display: none;
 }
-@media screen and (min-width: 768px) {
-  #cta .searchbar-container.searchbar-container {
-    width: 385px;
-  }
-
-  #cta .searchbar-search-text.searchbar-search-text {
-    display: inline;
-  }
-
-  #cta .searchbar-container__top.searchbar-container__top {
-    justify-content: flex-start;
-  } 
-
-  #cta .fas.fa-search {
-    display: none;
-  }
-
-  #cta .searchbar-search-text {
+  .searchbar__button span {
     color: white;
     font-size: 16px;
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
   }
 
-  #cta .search-icon-container.primary-background.primary-background {
-    border-radius: 0 17px 17px 0;
-    width: 80px;
-    height: 100%;
+  .searchbar__button span {
+    display: inline;
   }
+ .searchbar__button {
+    border-radius: 0 17px 17px 0;
+  }
+ .searchbar__location-icon {
+  display: inline-flex;
+  width: 50px;
+  border-radius: 17px 0 0 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  font-size: 18px;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
 }
 #cta .cta__header {
   margin-bottom: 12px;
@@ -50,13 +36,8 @@
   font-family: 'Raleway', sans-serif;
 }
 
-#cta .searchbar-container__top {
-  display: flex;
-  justify-content: center;
-}
-
-#cta .searchbar-search-text {
-  display:none;
+.searchbar__button span {
+  display: inline;
 }
 
 #cta .cta__sub {
@@ -67,61 +48,37 @@
   font-family: 'Raleway', sans-serif;
 }
 
-#cta .searchbar-container {
-  border-radius: 17px;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.searchbar-content-container input {
-  width: 100%;
+.searchbar__content input {
   font-family: 'Raleway', sans-serif;
-  padding-left: 50px;
+  padding-left: 20px;
   border: inherit;
   font-weight: 700;
   height: 50px;
   font-size: 16px;
   border-top: 2px var(--filter-border-grey) solid;
   border-bottom: 2px var(--filter-border-grey) solid;
-  z-index: 3;
+  max-width: 300px;
 }
 
-.searchbar-content-container input:focus,
-.searchbar-content-container input:active {
+.searchbar__content input:focus,
+.searchbar__content input:active {
   outline: inherit;
 }
 
-.searchbar-content-container {
+.searchbar__content {
   border: none;
   outline: none;
   margin-left: 15px;
 }
 
-#cta .location-icon {
-  position: absolute;
-  display: inline-flex;
-  left: 0;
-  z-index: 4;
-  height: 100%;
-  width: 50px;
-  border-radius: 17px 0 0 17px;
-}
-.grey-icon-background {
+.grey-background {
   background-color: var(--icon-grey-background);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  font-size: 18px;
-  border-radius:  17px 0 0 17px;
 }
 
-.searchbar-content-container {
+.searchbar__content {
   position: relative;
-  display: inline-flex;
-  width: 90%;
+  display: inline;
+  margin: 0;
   border-top: 2px var(--icon-grey-background) solid;
   border-bottom: 2px var(--icon-grey-background) solid;
 }
@@ -130,31 +87,21 @@
   padding: 15px 16px;
 }
 
-.searbar-input-container .searchbar-input {
+.searbar-input-container input {
     font-size: 18px;
     font-weight: bold;
 }
 
-#cta .search-icon-container {
-  position: relative;
-  display: inline-flex;
-  display: flex;
-  align-items: center;
-  border-radius: 17px 17px 17px 17px;
-}
-
-.search-icon-container.primary-background {
+.searchbar__button {
   border: 0;
   cursor: pointer;
-  position: absolute;
+  padding: 10px;
   background-color: var(--primary);
   display: flex;
-  align-content: center;
   z-index: 5;
   margin-left: -10px;
-  width: 51px;
   right: 0;
-  height: 100%;
+  align-items: center;
   justify-content: center;
 }
 
@@ -269,4 +216,22 @@
 
 .filter-background:hover {
   background: #d1d1d1;
+}
+
+  #cta .cta__action-phrase {
+    text-align: center;
+  }
+
+  .filter__top.filter__top {
+    justify-content: center;
+  }
+@media screen and (max-width: 768px) {
+
+  .searchbar__button i {
+    display: inline;
+  }
+  
+  .searchbar__button span {
+    display: none;
+  }
 }

@@ -21,7 +21,7 @@
     <div class="container">
       <div class="header__logo">
         <a href="#">
-          <img src="./images/logo/Booki3x.png" alt="Booki Logo" class="header__logo-image">
+          <img width="120" src="./images/logo/Booki@3x.png" alt="Booki Logo" class="header__logo-image">
         </a>
       </div>
       <nav>
@@ -46,24 +46,21 @@
       </div>
     </section>
     <section class="search">
-      <div class="searchbar-container__top">
-        <div class="searchbar-container">
-          <div class="location-icon">
-            <div class="grey-icon-background">
-              <i class="fas fa-map-marker-alt"></i>
-            </div>
-          </div>
-          <div class="searchbar-content-container">
-            <form action="#">
-              <label class="no-show" for="search-input">Search</label>
-              <input id="search-input" type="text" class="searchbar-input">
-            </form>
-          </div>
-          <button class="search-icon-container primary-background">
-            <span class="searchbar-search-text">Search</span>
-            <i class="fas fa-search"></i>
-          </button>
+      <div class="searchbar">
+        <div class="searchbar__location-icon grey-background">
+          <i class="fas fa-map-marker-alt"></i>
         </div>
+        <div class="searchbar__content">
+          <form action="#">
+            <label class="no-show" for="search-input">Search</label>
+            <input id="search-input" type="text">
+          </form>
+        </div>
+        <button class="searchbar__button">
+          <span>Search</span>
+          <i class="fas fa-search"></i>
+        </button>
+      </div>
       </div>
     </section>
     </div>

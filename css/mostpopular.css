@@ -12,10 +12,6 @@
   display: inline;
 }
 
-.grey-background {
-  background-color: var(---icon-grey-background)
-}
-
 .most-popular .hotel-card__top {
   display: flex;
   flex-direction: column;
