@@ -109,81 +109,6 @@
   color: white;
 }
 
-.filter-seciton .header {
-  color: black;
-}
-
-.filter-seciton .filter-background {
-  border: 1px var(--filter-border-grey) solid; 
-  border-radius: 17px;
-  display:  flex;
-  padding: 15px;
-  height: 50px;
-}
-
-.filter-seciton .icon-container {
-  background: #DEEBFF;
-}
-
-.filter-section .fa {
-  color: var(--filter-icon-color);
-}
-
-.filter-section .filter-title {
-  padding: 0 20px;
-  padding-left: 10px;
-  font-family: 'Raleway';
-}
-
-.filter-section .info {
-  display: flex;
-  flex-direction: row;
-}
-
-.filter__top {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-.filter-background{
-  border: 2px var(--icon-grey-background) solid;
-  padding: 0 10px;
-  border-radius: 25px;
-  position: relative;
-  margin: 0 20px 20px 0;
-  min-width: 150px;
-  display: flex;
-  justify-content: space-around;
-}
-
-.filter-background .icon-container {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--primary);
-  width: 105%;
-  height: 105%;
-  margin-top: -1px;
-  border-radius: 50px;
-  margin-left: -5px;
-  background: #deebff;
-}
-
-.filter-title {
-  display: inline;
-  font-weight: 700;
-}
-
-.filter__top:first-child {
-  margin-top: 0px;
-}
-
-.filter__top:last-child {
-  margin-bottom: 0px;
-}
-
-
 .info .icon-container {
   border: 1px var(--icon-grey-background) solid;
   border-radius: 50px;
@@ -202,22 +127,11 @@
   font-weight: 500;
 }
 
-.filter-icon__top {
-  position: absolute;
-  width: 50px;
-  left: 0;
-  height: 50px;
-}
 
 .info .info-content__top {
   display: flex;
   max-width: 450px;
 }
-
-.filter-background:hover {
-  background: #d1d1d1;
-}
-
   #cta .cta__action-phrase {
     text-align: center;
   }

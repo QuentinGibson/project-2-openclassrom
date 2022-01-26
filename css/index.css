@@ -1,8 +1,9 @@
 @import "variables.css";
 @import "header.css";
-@import "./cta.css";
-@import "./mostpopular.css";
-@import "./accommodations.css";
+@import "cta.css";
+@import "mostpopular.css";
+@import "accommodations.css";
+@import "filter.css";
 @import "activities.css";
 @import "footer.css";
 
