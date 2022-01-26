@@ -109,36 +109,10 @@
   color: white;
 }
 
-.info .icon-container {
-  border: 1px var(--icon-grey-background) solid;
-  border-radius: 50px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  color: var(--primary);
-  align-items: center;
-  justify-content: center;
-}
-
-.info .info-content__container {
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  margin-left: 10px;
-  font-weight: 500;
-}
-
-
-.info .info-content__top {
-  display: flex;
-  max-width: 450px;
-}
   #cta .cta__action-phrase {
     text-align: center;
   }
 
-  .filter__top.filter__top {
-    justify-content: center;
-  }
 @media screen and (max-width: 768px) {
 
   .searchbar__button i {

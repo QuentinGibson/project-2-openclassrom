@@ -1,15 +1,12 @@
 @import "variables.css";
 @import "header.css";
 @import "cta.css";
+@import "filter.css";
+@import "info.css";
 @import "mostpopular.css";
 @import "accommodations.css";
-@import "filter.css";
 @import "activities.css";
 @import "footer.css";
-
-@media  screen and (min-width: 762px) and (max-width: 992px) {
-    
-}
 
 html {
     box-sizing: border-box;
