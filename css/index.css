@@ -11,6 +11,7 @@
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -21,7 +22,10 @@ html {
     flex-direction: column;
 }
 
-.filter-content-container {display: flex;padding-left: 40px;}
+.filter-content-container {
+    display: flex;
+    padding-left: 40px;
+}
 
 section {
     display: flex;
@@ -56,38 +60,24 @@ section {
         padding: 25px 50px;
     }
 
-.section-group .section-container {flex-direction: row-reverse;justify-content: space-between;}
+    .section-group .section-container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
 
     .section-group {
         display: flex;
         flex-direction: row-reverse;
     }
-   aside {
-       background: #f2f2f2;
-       width: 33%;
-       border-radius: 25px;
-       padding: 10px 30px;
-   } 
 
-   .accommodations {
-       background: #f2f2f2;
-       width: 66%;
-       border-radius: 25px;
-       padding: 10px 20px;
+    aside {
+        background: #f2f2f2;
+        width: 33%;
+        border-radius: 25px;
+        padding: 10px 30px;
+    }
 
-   }
 
-   .accommodations .accommodation-card {
-       height: inherit;
-       margin-bottom: 10px;
-   }
-
-   .accommodations .accommodations-list {
-       flex-direction: row;
-       flex-wrap: wrap;
-       justify-content: space-between;
-       align-items: stretch;
-   }
 }
 
 .center-icon {
@@ -98,9 +88,9 @@ section {
 }
 
 .section-title-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .text-center-flex-container {
