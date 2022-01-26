@@ -8,13 +8,13 @@
   width: 100%;
 }
 
-.most-popular .header {
+.header {
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
   display: inline;
 }
 
-.most-popular .hotel-card__container {
+.hotel-card__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,7 +25,7 @@
   fill: gray
 }
 
-.most-popular .hotel-card {
+.hotel-card {
   padding: 5px;
   border-radius: 17px;
   margin: 5px 0;
@@ -37,7 +37,7 @@
   flex-direction: row;
 }
 
-.most-popular .hotel-card__image-container {
+.hotel-card__image-container {
   border-radius: 17px 0 0 17px;
   height: 140px;
   padding-top: 4px;
@@ -45,7 +45,7 @@
   width: 33%;
 }
 
-.most-popular .hotel-card__image {
+.hotel-card__image {
   object-fit: cover;
   width: 100%;
   overflow: hidden;
@@ -57,7 +57,7 @@
   object-position: center;
 }
 
-.most-popular .hotel-card__title {
+.hotel-card__title {
   font-family: 'Raleway', sans-serif;
   margin: 0;
   margin-bottom: 8px;
@@ -66,12 +66,12 @@
   max-width: 150px;
 }
 
-.most-popular .hotel-card__price {
+.hotel-card__price {
   font-family: 'Raleway', sans-serif;
   margin: 0;
 }
 
-.most-popular .hotel-card__rating {
+.hotel-card__rating {
   color: var(--primary);
   font-size: 12px;
 }
