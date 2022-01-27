@@ -126,6 +126,6 @@
   height: 110px;
 }
 
-.accommodation-card:hover {
+.accommodation-card__link:hover .accommodation-title {
   color: var(--primary);
 }
