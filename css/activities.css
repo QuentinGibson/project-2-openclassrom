@@ -1,81 +1,22 @@
-@media screen and (min-width: 768px) and (max-width: 992px) {}
-
-@media screen and (min-width: 996px) {
-  .activities .activity-card-link {
-    height: 100%;
-    width: 22%;
-  }
-
-  .activity-card {
-    margin: 0;
-  }
-
-  .activities .activity-card.activity-card {
-    height: 100%;
-    width: 100%;
-  }
-
-
-  .activities .activity-card .image-container {
-    height: 90%;
-  }
-
-  .activities .activity-card.small .text-center-flex-container {
-    height: 30%;
-  }
-
-  .activities .activity-list__container {
-    margin: 0 auto;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .activities .activity-card.small {
-    height: 40%;
-    position: relative;
-    width: 100%;
-  }
-
-  .activities .activity-image-container {
-    height: 85%;
-  }
-
-  .activities .activity-card.activity-card:last-of-type {
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .activities .activity-card.activity-card:first-of-type {
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-}
-
 .activities {
   padding: 0;
   margin: 38px 0;
 }
 
-.activities .header {
+.header {
   font-size: 22px;
   font-family: Raleway, sans-serif;
   font-weight: bold;
 }
 
-.activities .activity-list__container {
+.activity-list__container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.activities .activity-card {
+.activity-card {
   flex-direction: column;
   position: relative;
   width: 100%;
@@ -85,22 +26,17 @@
   margin: 10px 0;
 }
 
-.activities .activity-image-container {
+.activity-card__image {
   overflow: hidden;
   flex-grow: 2;
   position: relative;
   width: 100%;
   border-radius: 17px 17px 0 0;
-}
-
-.activities .activity-image-container .activity-image {
-  width: 100%;
-  height: 100%;
-  border-radius: inherit;
   position: relative;
+  height: 100%;
 }
 
-.activities .activity-title {
+.activity-card__title {
   flex-wrap: wrap;
   display: inline-block;
   font-family: Raleway, sans-serif;
@@ -110,44 +46,68 @@
   margin-left: 10px;
 }
 
-.activities .reno {
-  background: no-repeat center / cover url("../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-}
-
-.activities .kevin {
-  background: no-repeat center / cover url("../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-}
-
-.activities .paul {
-  background: no-repeat center / cover url("../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-}
-
-.activities .kilyan {
-  background: no-repeat center / cover url("../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-}
-
-.activities .florian {
-  background: no-repeat center / cover url("../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-}
-
-.activities .lena {
-  background: no-repeat center / cover url("../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-}
 
 
-.activities .activity-card:not(:first-of-type) {
+.activity-card:not(:first-of-type) {
   margin-top: 10px;
 }
 
-.activities .activity-card:not(:last-of-type) {
+.activity-card:not(:last-of-type) {
   margin-bottom: 10px;
 }
 
-.activity-card-link {
-
+.activity-card {
   width: 100%;
 }
 
-.activity-card-link:hover {
+.activity-card:hover {
   color: var(--primary)
+}
+
+@media screen and (min-width: 996px) {
+  .activity-card {
+    width: 22%;
+  }
+
+  .activity-card {
+    display: inline-flex;
+    margin: 0;
+    height: 100%;
+  }
+
+
+  .activity-card__image {
+    height: 90%;
+  }
+
+  .activity-card__small .text-center-flex-container {
+    height: 30%;
+  }
+
+  .activity-list__container {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .activity-card__small {
+    height: 240px;
+    position: relative;
+    width: 100%;
+  }
+
+  .activity-card.activity-card:last-of-type {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .activity-card.activity-card:first-of-type {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
