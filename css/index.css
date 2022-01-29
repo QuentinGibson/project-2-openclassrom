@@ -70,12 +70,6 @@ section {
         flex-direction: row-reverse;
     }
 
-    aside {
-        background: #f2f2f2;
-        width: 33%;
-        border-radius: 25px;
-        padding: 10px 30px;
-    }
 
 
 }
