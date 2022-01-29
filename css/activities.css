@@ -46,14 +46,6 @@
   margin-left: 10px;
 }
 
-.activity-card {
-  width: 100%;
-}
-
-.activity-card:hover {
-  color: var(--primary)
-}
-
 @media screen and (min-width: 996px) {
   .activity-card {
     width: 22%;
@@ -80,9 +72,10 @@
     width: 100%;
     height: 500px;
     flex-wrap: wrap;
-    justify-content: space-between;
   }
 
   .activity-card__small {
     height: 240px;
   }
+
+}
