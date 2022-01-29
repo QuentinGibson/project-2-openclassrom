@@ -28,8 +28,6 @@
 
 .activity-card__image {
   overflow: hidden;
-  flex-grow: 2;
-  position: relative;
   width: 100%;
   border-radius: 17px 17px 0 0;
   position: relative;
@@ -54,12 +52,7 @@
   .activity-card {
     display: inline-flex;
     margin: 0;
-    height: 100%;
-  }
-
-
-  .activity-card__image {
-    height: 90%;
+    flex: 1 0 45%;
   }
 
   .activity-card__small .text-center-flex-container {
@@ -69,13 +62,9 @@
   .activity-list__container {
     margin: 0 auto;
     display: flex;
-    width: 100%;
-    height: 500px;
+    flex-direction: column;
+    flex: 1 0 0%;
     flex-wrap: wrap;
-  }
-
-  .activity-card__small {
-    height: 240px;
   }
 
 }
