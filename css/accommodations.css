@@ -1,63 +1,20 @@
-@media screen and (min-width: 992px) {
-  .accommodations .accommodation-card__link {
-    width: 33%;
-    height: 200px;
-    margin: 0;
-    margin-top: 40px;
-    padding: 0 10px;
-  }
-}
-
 .accommodation-card__link {
   width: 100%;
 }
 
-.accommodations .accommodation-card {
-  height: 200px;
-  background: white;
-  border-radius: 17px;
-  box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 20%);
-  display: inline-flex;
-  flex-direction: column;
-  width: 100%;
-  margin: 0;
-  padding: 4px;
-}
 
-.accommodations .hotel-card-content {
-  display: flex;
-  padding: 10px 0 15px 15px;
-  flex-direction: column;
-  justify-content: space-between;
-  flex: 1;
-}
-
-.accommodations .accommodation-title {
-  margin: 0;
-  margin-bottom: 7px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-}
-
-.accommodations .accommodation-price {
-  margin: 0;
-  font-size: 14px;
-  font-family: Raleway, sans-serif;
-}
-
-.accommodations .accommodation__container {
+.accommodation__container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: -40px;
 }
 
-.accommodations .accommodations__wrapper {
+.accommodations__wrapper {
   overflow: hidden;
 }
 
-.accommodations .review {
+.review {
   font-size: 12px;
   color: var(--primary);
   display: flex;
@@ -66,33 +23,17 @@
   margin-bottom: 10px;
 }
 
-.accommodations .accommodation-card {
-  height: inherit;
-  margin-bottom: 10px;
-}
-
-.accommodations .accommodations-list {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-}
-
-.accommodations {
+#accommodations {
+  display: flex;
+  flex-direction: column;
   background: #f2f2f2;
   width: 66%;
   border-radius: 25px;
   padding: 30px 0;
 }
 
-@media screen and (max-width: 991px) {
-  .accommodations {
-    width: 100%;
-    background: white;
-  }
-}
 
-.accommodations .show-more {
+.show-more {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -101,31 +42,9 @@
   display: block;
 }
 
-.accommodation-card-content__container .accommodation-image {
-  width: 100%;
-  border-radius: 17px 17px 0 0;
-}
-
-.accommodation-card .accommodation-card-content {
-
-  margin-left: 20px;
-
-  display: flex;
-
-  justify-content: space-between;
-
-  height: 100%;
-
-  flex-direction: column;
-}
-
-.accommodations .accommodation-card .accommodation-image {
-  width: 100%;
-  border-radius: 17px 17px 0 0;
-  object-fit: cover;
-  height: 110px;
-}
-
-.accommodation-card__link:hover .accommodation-title {
-  color: var(--primary);
+@media screen and (max-width: 991px) {
+  #accommodations {
+    width: 100%;
+    background: white;
+  }
 }
