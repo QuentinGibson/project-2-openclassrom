@@ -21,7 +21,7 @@
     <div class="container">
       <div class="header__logo">
         <a href="#">
-          <img width="120" src="./images/logo/Booki@3x.png" alt="Booki Logo" class="header__logo-image">
+          <img width="120" src="./images/logo/Booki.png" alt="Booki Logo" class="header__logo-image">
         </a>
       </div>
       <nav>
@@ -46,20 +46,22 @@
       </div>
     </section>
     <section class="search">
-      <div class="searchbar">
-        <div class="searchbar__location-icon grey-background">
-          <i class="fas fa-map-marker-alt"></i>
+      <div class="container">
+        <div class="searchbar">
+          <div class="searchbar__location-icon grey-background">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="searchbar__content">
+            <form action="#">
+              <label class="no-show" for="search-input">Search</label>
+              <input id="search-input" type="text">
+            </form>
+          </div>
+          <button class="searchbar__button">
+            <span>Search</span>
+            <i class="fas fa-search"></i>
+          </button>
         </div>
-        <div class="searchbar__content">
-          <form action="#">
-            <label class="no-show" for="search-input">Search</label>
-            <input id="search-input" type="text">
-          </form>
-        </div>
-        <button class="searchbar__button">
-          <span>Search</span>
-          <i class="fas fa-search"></i>
-        </button>
       </div>
       </div>
     </section>
@@ -67,7 +69,7 @@
     </section>
     <section id="filter">
       <div class="container">
-        <h3 class="title">Filters</h3>
+        <h3 class="filter__title">Filters</h3>
         <div class="filter__button-container">
           <a href="#" class="filter__button">
             <div class="filter__button-content">
@@ -114,8 +116,8 @@
         </div>
       </div>
     </section>
-    <div class="section-group">
-      <div class="container">
+    <div class="container">
+      <div class="section-group">
         <aside class="most-popular" id="most-popular">
           <div class="section-title-container">
             <h3 class="header">Most Popular</h3>

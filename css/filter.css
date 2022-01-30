@@ -1,3 +1,14 @@
+#filter {
+  margin-top: 40px;
+}
+
+.filter__title {
+  display: inline;
+  font-weight: 700;
+  display: inline-block;
+  font-family: 'Raleway';
+}
+
 .filter__button-content:hover {
   background: #d1d1d1;
 }
@@ -9,13 +20,9 @@
   margin-right: 10px;
 }
 
-.filter-section .filter-title {
-  font-family: 'Raleway';
-}
-
-
 .filter__button-container {
-  display: flex;
+  padding-left: 30px;
+  display: inline-flex;
   flex-wrap: wrap;
 }
 
@@ -31,7 +38,7 @@
   justify-content: flex-start;
 }
 
-.filter__button-icon div{
+.filter__button-icon div {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -47,9 +54,5 @@
 .filter__button-title {
   display: inline;
   font-weight: 700;
-
-}
-.filter-section .info {
-  display: flex;
-  flex-direction: row;
+  font-family: 'Raleway';
 }

@@ -1,3 +1,7 @@
+.searchbar {
+  display: flex;
+}
+
 .searchbar__button i {
   display: none;
 }
@@ -26,11 +30,6 @@
   align-items: center;
   width: 50px;
   font-size: 18px;
-}
-
-.searchbar {
-  display: flex;
-  justify-content: center;
 }
 
 #cta .cta__header {
@@ -114,9 +113,6 @@
   color: white;
 }
 
-#cta .cta__action-phrase {
-  text-align: center;
-}
 
 @media screen and (max-width: 768px) {
 
