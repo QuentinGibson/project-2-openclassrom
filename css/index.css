@@ -17,8 +17,9 @@ html {
 }
 
 .header {
+    margin: 0;
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     display: inline;
 }
 
@@ -37,6 +38,10 @@ html {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+    }
+
+    .section-group .container {
+        padding: 35px;
     }
 }
 
