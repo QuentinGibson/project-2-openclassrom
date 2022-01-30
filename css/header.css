@@ -2,7 +2,7 @@ nav li a:hover {
     color: var(--primary)
 }
 
-.header__logo-container {
+.header__logo {
     display: flex;
     padding-top: 25px;
     justify-content: center;
@@ -14,13 +14,18 @@ nav li a:hover {
     width: 96px;
 }
 
-nav ul {
-    display:  flex;
+ul {
+    display: flex;
+}
+
+nav .container {
+    display: flex;
     flex-direction: row;
     list-style: none;
     padding: 0;
 }
-nav ul .list-item {
+
+nav .list-item {
     letter-spacing: .3px;
     font-size: 16px;
     font-family: 'Raleway', sans-serif;
@@ -33,36 +38,40 @@ nav ul .list-item {
     justify-content: center;
 }
 
-nav ul .list-item:hover {
+nav .list-item:hover {
     border-bottom: 3px var(--menu-grey) solid;
 }
 
-nav ul .active:hover {
+nav .active:hover {
     border-bottom: 3px var(--primary) solid;
 }
 
 
-nav ul .active {
+nav .active {
     color: var(--primary);
     border-bottom: 3px white solid;
 }
 
-@media screen and (max-width: 992px) {
-    .header__top {
+@media screen and (min-width: 992px) {
+
+    header .container {
         display: flex;
         justify-content: space-between;
     }
-    nav ul .list-item {
+
+    nav .list-item {
         border-top: 3px white solid;
     }
-    nav ul .list-item:hover {
+
+    nav .list-item:hover {
         border-top: 3px var(--menu-grey) solid;
         border-bottom: 3px white solid;
     }
 
-    nav ul .list-item.active:hover {
+    nav .list-item.active:hover {
         border-top: 3px var(--primary) solid;
     }
+
     nav ul li a {
         display: inline-block;
         padding: 0 25px;
