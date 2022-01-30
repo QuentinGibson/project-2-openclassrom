@@ -49,18 +49,8 @@ section {
     display: none;
 }
 
-.section-container {
-    padding: 25px 20px;
-    display: flex;
-    flex-direction: column;
-}
-
 @media screen and (min-width: 992px) {
-    .section-container {
-        padding: 25px 50px;
-    }
-
-    .section-group .section-container {
+    .section-group .container {
         flex-direction: row-reverse;
         justify-content: space-between;
     }
