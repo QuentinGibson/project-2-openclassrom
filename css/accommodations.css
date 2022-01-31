@@ -21,7 +21,6 @@
 
 .accommodation-card__image {
   border-radius: 17px 17px 0 0;
-  padding: 1px;
   max-height: 120px;
   object-fit: cover;
   object-position: center;

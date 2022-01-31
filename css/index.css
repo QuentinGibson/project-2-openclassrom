@@ -45,7 +45,7 @@ html {
         justify-content: space-between;
     }
 
-    .section-group .container {
+    .section-group .container, aside .container {
         padding: 35px;
     }
 }
