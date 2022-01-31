@@ -20,6 +20,7 @@ html {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
+    margin-bottom: 30px;
     display: inline;
 }
 
@@ -31,6 +32,10 @@ html {
 
 .no-show {
     display: none;
+}
+
+.fa-star {
+    font-size: 11px;
 }
 
 @media screen and (min-width: 992px) {
