@@ -14,7 +14,7 @@
 .activity-card {
   flex-direction: column;
   position: relative;
-  width: 100%;
+  width: 22%;
   box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 20%);
   border-radius: 17px 17px 17px 17px;
   display: flex;
@@ -27,7 +27,8 @@
   object-position: center;
   overflow: hidden;
   border-radius: 17px 17px 0 0;
-  flex: 1 1 80%;
+  flex-basis: 80%;
+  flex-wrap: wrap;
   max-height: 100%;
 }
 
@@ -48,39 +49,53 @@
   margin-left: 10px;
 }
 
-@media screen and (min-width: 996px) {
+
+.activity-card__full {
+  /* Using min height to give flex basis a floor value */
+  min-height: 100%;
+}
+
+.activity-card__half {
+  /* We do 40 instead of 50 to create 10% margin space */
+  min-height: 45%;
+}
+
+.activity-card__large {
+  min-height: 60%;
+}
+
+.activity-card__small {
+  /* We use max-height because 35% < 40% */
+  max-height: 35%;
+}
+
+
+.activity-card {
+  display: inline-flex;
+  margin: 0;
+  flex-basis: 40%
+}
+
+.activity-list__container {
+  height: 350px;
+}
+
+@media screen and (max-width: 991px) {
+
   .activity-card {
-    width: 22%;
+    width: 100%;
   }
 
-  .activity-card__full {
-    /* Using min height to give flex basis a floor value */
-    min-height: 100%;
+  .activity-card:not(:first-child) {
+    margin-top: 30px;
   }
 
-  .activity-card__half {
-    /* We do 40 instead of 50 to create 10% margin space */
-    min-height: 45%;
-  }
-
-  .activity-card__large {
-    min-height: 60%;
-  }
-
-  .activity-card__small {
-    /* We use max-height because 35% < 40% */
-    max-height: 35%;
-  }
-
-
-  .activity-card {
-    display: inline-flex;
-    margin: 0;
-    flex-basis: 40%
+  .activity-card__image {
+    flex-basis: 150px;
   }
 
   .activity-list__container {
-    height: 350px;
+    flex-wrap: nowrap;
+    height: auto;
   }
-
 }
