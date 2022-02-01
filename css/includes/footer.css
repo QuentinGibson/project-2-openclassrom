@@ -1,0 +1,65 @@
+@media screen and (min-width: 768px) {
+  .footer .section-container {
+    flex-direction: row;
+    width: 80%;
+  }
+
+  #footer .footer-list.footer-list {
+    flex-direction: row;
+    padding: 0;
+  }
+}
+
+#footer {
+  background: #F2F2F2;
+  padding: 40px 6px;
+}
+
+#footer .footer-list {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  justify-content: space-between;
+  width: 80%;
+}
+
+#footer .sublist {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+#footer .list-item {
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+
+#footer .list-title {
+  color: var(--footer-title-color);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin: 0;
+}
+
+#footer .sublist-item {
+  padding: 5px 0;
+}
+
+#footer .item-link {
+  color: var(--footer-sublist-color);
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 12px;
+  text-decoration: none;
+}
+
+#footer a:visited {
+  color: var(--footer-sublist-color);
+}
+
+#footer a:hover {
+  color: var(--primary)
+}
