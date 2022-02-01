@@ -90,7 +90,7 @@
   padding: 20px 0 0 16px;
 }
 
-.hotel-card__link:hover {
+.hotel-card__link:hover .hotel-card__title {
   color: var(--primary)
 }
 

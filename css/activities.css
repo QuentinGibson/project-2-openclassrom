@@ -80,6 +80,10 @@
   height: 350px;
 }
 
+.activity-card__link:hover .activity-card__title {
+  color: var(--primary)
+}
+
 @media screen and (max-width: 991px) {
 
   .activity-card {
