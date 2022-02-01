@@ -1,63 +1,64 @@
 .activities {
-  padding: 0;
   margin: 38px 0;
+  padding: 0;
 }
 
 .activity-list__container {
+  align-content: space-between;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: space-between;
   justify-content: space-between;
 }
 
 .activity-card {
+  border-radius: 17px 17px 17px 17px;
+  box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 20%);
+  display: flex;
   flex-direction: column;
+  flex: 0 0 40%;
+  margin: 10px 0;
   position: relative;
   width: 22%;
-  box-shadow: 0px 0px 10px 1px rgb(0 0 0 / 20%);
-  border-radius: 17px 17px 17px 17px;
-  display: flex;
-  margin: 10px 0;
-  flex: 0 0 40%;
 }
 
 .activity-card__image {
-  object-fit: cover;
-  object-position: center;
-  overflow: hidden;
   border-radius: 17px 17px 0 0;
   flex-basis: 80%;
   flex-wrap: wrap;
   max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
 }
 
 .text-center-flex-container {
-  display: flex;
   align-items: center;
+  display: flex;
   flex: 0 0 50px;
   width: 100%;
 }
 
 .activity-card__title {
-  flex-wrap: wrap;
   display: inline-block;
+  flex-wrap: wrap;
   font-family: Raleway, sans-serif;
   font-size: 16px;
   font-weight: 700;
-  margin: 0;
   margin-left: 10px;
+  margin: 0;
 }
 
-
 .activity-card__full {
-  /* Using min height to give flex basis a floor value */
   min-height: 100%;
+
+  /* Using min height to give flex basis a floor value */
 }
 
 .activity-card__half {
-  /* We do 40 instead of 50 to create 10% margin space */
   min-height: 45%;
+
+  /* We do 40 instead of 50 to create 10% margin space */
 }
 
 .activity-card__large {
@@ -65,15 +66,14 @@
 }
 
 .activity-card__small {
-  /* We use max-height because 35% < 40% */
   max-height: 35%;
-}
 
+  /* We use max-height because 35% < 40% */
+}
 
 .activity-card {
   display: inline-flex;
-  margin: 0;
-  flex-basis: 40%
+  flex-basis: 40% margin: 0;
 }
 
 .activity-list__container {
@@ -85,13 +85,12 @@
 }
 
 @media screen and (max-width: 991px) {
+  .activity-card:not(:first-child) {
+    margin-top: 30px;
+  }
 
   .activity-card {
     width: 100%;
-  }
-
-  .activity-card:not(:first-child) {
-    margin-top: 30px;
   }
 
   .activity-card__image {
