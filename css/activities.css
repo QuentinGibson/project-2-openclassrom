@@ -73,7 +73,8 @@
 
 .activity-card {
   display: inline-flex;
-  flex-basis: 40% margin: 0;
+  flex-basis: 40%;
+  margin: 0;
 }
 
 .activity-list__container {
