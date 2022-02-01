@@ -5,4 +5,6 @@
   --icon-grey-background: #F2F2F2;
   --footer-sublist-color: #121212;
   --filter-grey-border: #707070;
+  --tablet: 768px;
+  --desktop: 992px;
 }

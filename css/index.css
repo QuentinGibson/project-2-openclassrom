@@ -1,55 +1,64 @@
-@import "variables.css";
-@import "header.css";
-@import "./cta.css";
-@import "./mostpopular.css";
-@import "./accommodations.css";
-@import "activities.css";
-@import "footer.css";
+@import "includes/variables.css";
+@import "includes/header.css";
+@import "includes/cta.css";
+@import "includes/filter.css";
+@import "includes/info.css";
+@import "includes/mostpopular.css";
+@import "includes/accommodations.css";
+@import "includes/activities.css";
+@import "includes/footer.css";
 
 html {
     box-sizing: border-box;
 }
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
-.filter-content-container {display: flex;padding-left: 40px;}
-
-section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .header {
+    display: inline;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
-    display: inline;
+    margin-bottom: 30px;
+    margin: 0;
 }
 
 .container {
-    width: 100%;
-    padding: 0 25px;
     margin: auto;
+    padding: 0 25px;
+    width: 100%;
 }
 
-.section-container {
-    padding: 25px 20px;
-    /* max-width: 400px; */
-    /* align-items: center; */
-    display: flex;
-    flex-direction: column;
+.no-show {
+    display: none;
 }
 
-.center-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 26px;
+.fa-star {
+    font-size: 11px;
 }
 
-.section-title-container {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+@media screen and (min-width: 992px) {
+    .section-group {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .section-group .container, aside .container {
+        padding: 35px;
+    }
+}
+
+ul {
+    margin: 0;
+}
+
+.grey {
+    color: grey;
+}
+
+a {
+    color: initial;
+    text-decoration: none;
 }
