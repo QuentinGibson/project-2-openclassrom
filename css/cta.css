@@ -17,9 +17,6 @@
   display: inline;
 }
 
-.searchbar__button {
-  border-radius: 0 17px 17px 0;
-}
 
 .searchbar__location-icon {
   display: inline-flex;
@@ -98,6 +95,7 @@
 
 .searchbar__button {
   border: 0;
+  border-radius: 0 17px 17px 0;
   cursor: pointer;
   padding: 10px;
   background-color: var(--primary);
@@ -122,5 +120,10 @@
 
   .searchbar__button span {
     display: none;
+  }
+
+  .searchbar__button {
+    border-radius: 17px;
+    width: 50px;
   }
 }

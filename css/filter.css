@@ -56,3 +56,9 @@
   font-weight: 700;
   font-family: 'Raleway';
 }
+
+@media screen and (max-width: 992px) {
+  .filter__button-container {
+    padding-left: 0;
+  }
+}

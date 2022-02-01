@@ -85,3 +85,7 @@
     background: white;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .activity-card__link {}
+}
