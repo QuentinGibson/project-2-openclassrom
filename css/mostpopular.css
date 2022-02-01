@@ -105,7 +105,11 @@
 
   #most-popular {
     width: 100%;
+    padding: 40px 0;
+    border-radius: 0;
   }
 
-
+  .container.tablet-fluid {
+    padding: 0;
+  }
 }

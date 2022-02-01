@@ -87,5 +87,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-  .activity-card__link {}
+  .accommodation-card__link {
+    flex-basis: 50%
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .accommodation-card__link {
+    flex-basis: 100%
+  }
 }
