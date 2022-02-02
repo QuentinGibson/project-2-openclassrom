@@ -6,14 +6,18 @@
   display: flex;
   height: 30px;
   justify-content: center;
+  display: inline-flex;
+
   width: 30px;
 }
+
 .info .info__content {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 500;
   margin-left: 10px;
 }
+
 .info {
   display: flex;
   max-width: 450px;
